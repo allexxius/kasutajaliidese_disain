@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.avaleht body {
+    background-color: white;
+}
+
+.avaleht div {
+    text-align: center;
+    margin: auto;
+}
+
+.avaleht h1 {
+    font-family: "Roboto";
+    color:  #505050;
+}
+
+.avaleht p {
+    font-family: "Roboto";
+    color:  #505050;
+}
+
+.avaleht button {
+    font-family: "Roboto";
+    background-color: #505050;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+.avaleht button:hover {
+    font-family: "Roboto";
+    background-color: #505050;
+    color: white;
+    opacity: 80%;
+    border: 0px;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+}
