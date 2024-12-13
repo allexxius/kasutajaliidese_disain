@@ -2,11 +2,11 @@
 
 body {
     background-color: white;
-    height: 100vh; /* Full viewport height */
-    margin: 0; /* Remove default body margin */
-    display: flex; /* Enable flexbox for centering */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1, p, button {
