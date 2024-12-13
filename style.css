@@ -1,41 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.avaleht body {
+body {
     background-color: white;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default body margin */
+    display: flex; /* Enable flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
-.avaleht div {
-    text-align: center;
-    margin: auto;
+h1, p, button {
+    font-family: "Roboto", sans-serif;
+    color: #505050;
 }
 
-.avaleht h1 {
-    font-family: "Roboto";
-    color:  #505050;
-}
-
-.avaleht p {
-    font-family: "Roboto";
-    color:  #505050;
-}
-
-.avaleht button {
-    font-family: "Roboto";
+button {
     background-color: #505050;
     color: white;
-    border: 0px;
+    border: 0;
     border-radius: 10px;
     width: 300px;
     height: 50px;
+    transition: opacity 0.3s;
 }
 
-.avaleht button:hover {
-    font-family: "Roboto";
-    background-color: #505050;
-    color: white;
-    opacity: 80%;
-    border: 0px;
-    border-radius: 10px;
-    width: 300px;
-    height: 50px;
+button:hover {
+    opacity: 0.8;
 }
